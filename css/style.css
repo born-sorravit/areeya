@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-  --primary: #06a3da;
-  --secondary: #34ad54;
+  --primary: #437580;
+  --secondary: #70abaf;
   --light: #eef9ff;
   --dark: #091e3e;
 }
@@ -181,7 +181,7 @@ h6,
 
   .sticky-top.navbar-dark {
     position: fixed;
-    background: #06A3DA;
+    background: #437580;
   }
 
   .navbar-dark .navbar-nav .nav-link::before {
@@ -549,3 +549,39 @@ h6,
     url(../img/detail.jpeg) center center no-repeat;
   background-size: cover;
 }
+
+.project-bg-header {
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/porjai-header.jpg) center center no-repeat;
+}
+
+.project-bg-detail {
+  background-size: cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+    url(../img/porjai-header.jpg) center center no-repeat;
+}
+
+/*-----CUSTOM TAILWIND-----*/
+@font-face {
+	font-family: 'calibril';
+	src: url('../font/calibril.ttf');
+	src: local('☺'), url('../font/calibril.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+body {
+  font-family: calibril;
+  font-size: 20px;
+}
+label {
+  font-size: 18px;
+}
+.text-xs{
+  font-size: 16px !important;
+}
+.text-primary {
+  color: rgb(67 , 117 , 128, 1) !important;
+}
+
+/*----------*/
