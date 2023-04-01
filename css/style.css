@@ -406,6 +406,17 @@ h6,
   box-shadow: 0 0 30px #dddddd;
 }
 
+div .testimonial-carousel .owl-item.center .testimonial-item .icon-translate{
+  /* transition-delay: 2s; */
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;  
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
 /*** Team ***/
 .team-item {
   transition: 0.5s;
