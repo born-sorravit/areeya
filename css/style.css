@@ -562,8 +562,8 @@ div .testimonial-carousel .owl-item.center .testimonial-item .icon-translate{
 }
 
 .project-bg-header {
-  background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-size: cover !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/porjai-header.jpg) center center no-repeat;
 }
 
@@ -573,6 +573,16 @@ div .testimonial-carousel .owl-item.center .testimonial-item .icon-translate{
     url(../img/porjai-header.jpg) center center no-repeat;
 }
 
+.project-bg-detail-black {
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7)),
+    url(../img/porjai-header.jpg) center center no-repeat;
+}
+
+.project-bg-elegant {
+  background-size: cover !important;
+  background: url(../img/bg-elegant.jpg) center center no-repeat;
+}
 /*-----CUSTOM TAILWIND-----*/
 @font-face {
 	font-family: 'calibril';
@@ -581,9 +591,26 @@ div .testimonial-carousel .owl-item.center .testimonial-item .icon-translate{
 	font-weight: 200;
 	font-style: normal;
 }
-body {
-  font-family: calibril;
+@font-face {
+	font-family: 'Kanit';
+	src: url('../font/Kanit/Kanit-Regular.ttf');
+	src: local('☺'), url('../font/Kanit/Kanit-Regular.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Prompt';
+	src: url('../font/Prompt/Prompt-Regular.ttf');
+	src: local('☺'), url('../font/Prompt/Prompt-Regular.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+body, div {
+  font-family: 'Kanit',sans-serif !important;
   font-size: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-family: 'Kanit',sans-serif !important;
 }
 label {
   font-size: 18px;
@@ -594,5 +621,7 @@ label {
 .text-primary {
   color: rgb(67 , 117 , 128, 1) !important;
 }
-
+.project-factor {
+  width: 25px !important;
+}
 /*----------*/

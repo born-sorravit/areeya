@@ -74,13 +74,13 @@
     });
 
     // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('.back-to-contact').fadeIn('slow');
-        } else {
-            $('.back-to-contact').fadeOut('slow');
-        }
-    });
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 100) {
+    //         $('.back-to-contact').fadeIn('slow');
+    //     } else {
+    //         $('.back-to-contact').fadeOut('slow');
+    //     }
+    // });
     $('.back-to-contact').click(function () {
         $('html, body').animate({scrollTop: 600}, 1500, 'easeInOutExpo');
         return false;
