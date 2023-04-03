@@ -585,9 +585,9 @@ div .testimonial-carousel .owl-item.center .testimonial-item .icon-translate{
 }
 /*-----CUSTOM TAILWIND-----*/
 @font-face {
-	font-family: 'calibril';
-	src: url('../font/calibril.ttf');
-	src: local('☺'), url('../font/calibril.ttf') format('truetype');
+	font-family: 'Calibri';
+	src: url('../font/Calibri/CALIBRI.TTF');
+	src: local('☺'), url('../font/Calibri/CALIBRI.TTF') format('truetype');
 	font-weight: 200;
 	font-style: normal;
 }
@@ -605,8 +605,8 @@ div .testimonial-carousel .owl-item.center .testimonial-item .icon-translate{
 	font-weight: 200;
 	font-style: normal;
 }
-body, div {
-  font-family: 'Kanit',sans-serif !important;
+body, div, h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Calibri', 'Kanit',sans-serif !important;
   font-size: 20px;
 }
 .navbar-dark .navbar-nav .nav-link {
