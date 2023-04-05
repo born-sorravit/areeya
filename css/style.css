@@ -599,14 +599,14 @@ div .testimonial-carousel .owl-item.center .testimonial-item .icon-translate{
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Prompt';
+	font-family: 'db helvethaica';
 	src: url('../font/Prompt/Prompt-Regular.ttf');
 	src: local('☺'), url('../font/Prompt/Prompt-Regular.ttf') format('truetype');
 	font-weight: 200;
 	font-style: normal;
 }
 body, div, h1, h2, h3, h4, h5, h6, p, span {
-  font-family: 'Calibri', 'Kanit',sans-serif !important;
+  font-family: 'db helvethaica', 'Kanit',sans-serif !important;
   font-size: 20px;
 }
 .navbar-dark .navbar-nav .nav-link {
