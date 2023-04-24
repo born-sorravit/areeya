@@ -4,6 +4,7 @@
   --secondary: #70abaf;
   --light: #eef9ff;
   --dark: #091e3e;
+  --primary-light: #dce2e2;
 }
 
 /*** Spinner ***/
@@ -181,7 +182,8 @@ h6,
 
   .sticky-top.navbar-dark {
     position: fixed;
-    background: #437580;
+    background: rgb(67,117,128);
+    background: linear-gradient(43deg, rgba(67,117,128,1) 0%, rgba(112,171,175,1) 100%);
   }
 
   .navbar-dark .navbar-nav .nav-link::before {
@@ -404,6 +406,7 @@ h6,
 .testimonial-carousel .owl-item.center .testimonial-item {
   background: #ffffff !important;
   box-shadow: 0 0 30px #dddddd;
+  border-radius: 3%;
 }
 
 div .testimonial-carousel .owl-item.center .testimonial-item .icon-translate{
@@ -575,7 +578,7 @@ div .testimonial-carousel .owl-item.center .testimonial-item .icon-translate{
 
 .project-bg-detail-black {
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7)),
+  background: linear-gradient(rgba(67,117,128,0.4), rgba(255, 255, 255, 0.7)),
     url(../img/porjai-header.jpg) center center no-repeat;
 }
 
